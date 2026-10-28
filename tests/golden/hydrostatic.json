@@ -1,0 +1,87 @@
+{
+ "particle_count": 96,
+ "steps": 25,
+ "every": 10,
+ "hyperparameters": {
+  "layout": "column",
+  "particle_count": 100,
+  "max_steps": 25,
+  "cfl": 0.35,
+  "viscosity": 0.15,
+  "stiffness": 500.0,
+  "gamma": 7.0,
+  "xsph": 0.5,
+  "require_stable": true,
+  "max_rel_density_err": 0.2,
+  "metric_tail": 8,
+  "max_velocity_gate": 0.15,
+  "max_score": 500.0
+ },
+ "snapshots": [
+  {
+   "step": -1,
+   "sim_time": 0.0,
+   "kinetic_energy": 0.0,
+   "vmax": 0.0,
+   "ke_recomputed": 0.0,
+   "vmax_recomputed": 0.0,
+   "mean_density": 1000.0,
+   "max_density": 1000.0,
+   "front_x": 0.47500000000000003,
+   "com_x": 0.25,
+   "com_y": 0.39999999999999986
+  },
+  {
+   "step": 0,
+   "sim_time": 0.0005,
+   "kinetic_energy": 0.0046765972561983475,
+   "vmax": 0.0049050000000000005,
+   "ke_recomputed": 0.0046765972561983475,
+   "vmax_recomputed": 0.0049050000000000005,
+   "mean_density": 900.8267289424851,
+   "max_density": 997.1776174679492,
+   "front_x": 0.47500000000000003,
+   "com_x": 0.25,
+   "com_y": 0.3999975474999999
+  },
+  {
+   "step": 10,
+   "sim_time": 0.005500000000000001,
+   "kinetic_energy": 0.5658682679999999,
+   "vmax": 0.053955,
+   "ke_recomputed": 0.5658682679999999,
+   "vmax_recomputed": 0.053955,
+   "mean_density": 900.8267289424853,
+   "max_density": 997.1776174679503,
+   "front_x": 0.47500000000000003,
+   "com_x": 0.25,
+   "com_y": 0.39983813499999993
+  },
+  {
+   "step": 20,
+   "sim_time": 0.010500000000000006,
+   "kinetic_energy": 2.0623793899834735,
+   "vmax": 0.10300500000000005,
+   "ke_recomputed": 2.0623793899834735,
+   "vmax_recomputed": 0.10300500000000005,
+   "mean_density": 900.8267289424853,
+   "max_density": 997.1776174679512,
+   "front_x": 0.47500000000000003,
+   "com_x": 0.25,
+   "com_y": 0.3994334724999996
+  },
+  {
+   "step": 24,
+   "sim_time": 0.012500000000000008,
+   "kinetic_energy": 2.9228732851239703,
+   "vmax": 0.12262500000000008,
+   "ke_recomputed": 2.9228732851239703,
+   "vmax_recomputed": 0.12262500000000008,
+   "mean_density": 900.8267289424854,
+   "max_density": 997.1776174679516,
+   "front_x": 0.47500000000000003,
+   "com_x": 0.25,
+   "com_y": 0.39920293749999985
+  }
+ ]
+}
